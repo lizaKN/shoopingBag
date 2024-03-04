@@ -1,0 +1,165 @@
+.product{
+    margin-top: 30px;
+    margin-left: 400px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: aliceblue;
+}
+.info{
+    margin: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    color: #8a0c3e;
+    
+}
+.name{
+    font-weight: bold;
+}
+.info button{
+    margin-top: 60px;
+    width: 300px;
+    border: 0px;
+    align-self: baseline;
+    margin-left: -125px;
+    
+}
+.increase{
+    border: 0px;
+    font-size: larger;
+    font-weight: bold;
+}
+.decrease{
+    border: 0px;
+    font-size: larger;
+    font-weight: bold;
+}
+.price{
+    margin-top: 20px;
+    color: #8d1847;
+}
+
+.counter{
+    margin-top: 10px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+.counter p{
+    margin-right: 7px;
+    font-weight: bold;
+    color:#8d1847;
+}
+img{
+    text-align: start;
+    mix-blend-mode:multiply;
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    object-position: 25% 25%; 
+}
+
+.cart-App{
+    height: 30px;
+    margin-left: -8px;
+    padding-left: 200px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -8px;
+    width: 1346 px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    background-color:#e60d64;
+}
+.container{
+    text-align: center;
+}
+
+
+.total-price{
+    float: right;
+    margin-right: 430px;
+    margin-top: 5px;
+    color: #8d1847;
+
+}
+
+.total{
+    margin-left: -130px;
+    margin-top: 5px;
+    color: #8d1847;
+}
+.empty{
+    text-align: center;
+    size: 400px;
+    color: #F9629F;
+}
+.bag{
+    margin-top: -10px;
+    text-align: center;
+    font-size: 30px;
+    color: #F9629F;
+}
+.clear-cart{
+    margin-left: 520px;
+    align-items: center;
+    margin-top: 10px;
+}
+button:hover{
+    color: #8a0c3e;
+    border-color: #e92e79;
+}
+button{
+    cursor: pointer;
+    color: #F9629F;
+    border-color: #F9629F;
+}
+.pink-line-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pink-line {
+    width: 700px;
+    height: 2px;
+    background-color:  #e92e79;
+    margin-left: 2px;
+  }
+*{
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.bag-icon {
+    position: relative;
+    font-size: 12px;
+    line-height: 16px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 440px;
+    color: #65092e;
+  }
+  
+  
+  .bubble {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    min-width: 16px;
+    height: 16px;
+    background-color:#f8a2c4;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+
+  .bag-icon svg {
+    background-color:#e60d64;
+  }
